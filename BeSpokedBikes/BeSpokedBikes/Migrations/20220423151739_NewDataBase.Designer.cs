@@ -4,6 +4,7 @@ using BeSpokedBikes.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BeSpokedBikes.Migrations
 {
     [DbContext(typeof(BeSpokedBikesContext))]
-    partial class BeSpokedBikesContextModelSnapshot : ModelSnapshot
+    [Migration("20220423151739_NewDataBase")]
+    partial class NewDataBase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,16 +60,17 @@ namespace BeSpokedBikes.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
-                    b.Property<DateTime>("BeginDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("BeginDate")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("DiscountPercentage")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("EndDate")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Product")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");

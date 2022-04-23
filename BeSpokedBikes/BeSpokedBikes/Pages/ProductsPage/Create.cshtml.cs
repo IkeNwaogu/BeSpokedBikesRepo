@@ -25,6 +25,9 @@ namespace BeSpokedBikes.Pages.ProductsPage
             return Page();
         }
 
+
+        /*When the Create form posts the form values, 
+         * the ASP.NET Core runtime binds the posted values to the Products model.*/
         [BindProperty]
         public Products Products { get; set; }
 
@@ -33,6 +36,8 @@ namespace BeSpokedBikes.Pages.ProductsPage
         {
             if (!ModelState.IsValid)
             {
+                //The Page method creates a PageResult
+                //object that renders the Create.cshtml page.
                 return Page();
             }
 

@@ -8,7 +8,7 @@ namespace BeSpokedBikes.Models
         public string? Product { get; set; }
         public string? SalesPerson { get; set; }
 
-        public Customer? Customer { get; set; }
+        public string? Customer { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime SalesDate { get; set; } //Todo: Get datetype
