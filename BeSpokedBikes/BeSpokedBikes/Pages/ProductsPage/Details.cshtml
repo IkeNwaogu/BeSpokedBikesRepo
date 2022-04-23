@@ -1,0 +1,61 @@
+﻿@page
+@model BeSpokedBikes.Pages.ProductsPage.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Products</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.Manufacturer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.Manufacturer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.Style)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.Style)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.PurchasePrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.PurchasePrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.SalePrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.SalePrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.QtyOnHand)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.QtyOnHand)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Products.CommissionPercentage)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Products.CommissionPercentage)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Products.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

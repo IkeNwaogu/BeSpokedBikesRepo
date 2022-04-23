@@ -1,0 +1,144 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BeSpokedBikes
+build_property.RootNamespace = BeSpokedBikes
+build_property.ProjectDir = C:\Users\Ike\source\repos\BeSpokedBikesRepo\BeSpokedBikesRepo\BeSpokedBikes\BeSpokedBikes\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ike\source\repos\BeSpokedBikesRepo\BeSpokedBikesRepo\BeSpokedBikes\BeSpokedBikes
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/CustomerPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/CustomerPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/CustomerPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/CustomerPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/CustomerPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/DiscountPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/DiscountPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/DiscountPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/DiscountPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/DiscountPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/ProductsPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/ProductsPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/ProductsPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/ProductsPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/ProductsPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPersonPage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQZXJzb25QYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPersonPage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQZXJzb25QYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPersonPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQZXJzb25QYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPersonPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQZXJzb25QYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/SalesPersonPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNQZXJzb25QYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ike/source/repos/BeSpokedBikesRepo/BeSpokedBikesRepo/BeSpokedBikes/BeSpokedBikes/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gdmj9j2c36
