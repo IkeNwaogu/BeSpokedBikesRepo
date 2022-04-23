@@ -22,6 +22,11 @@ namespace BeSpokedBikes.Pages.SalesPersonPage
 
         public IList<SalesPerson> SalesPerson { get;set; }
 
+        /*
+        * When a request is made for the page, the OnGetAsync method returns a list of SalesPersons to the Razor Page. 
+        * On a Razor Page, OnGetAsync or OnGet is called to initialize the state of the page. 
+        * In this case, OnGetAsync gets a list of SalesPersons and displays them.
+        */
         public async Task OnGetAsync()
         {
             SalesPerson = await _context.SalesPerson.ToListAsync();

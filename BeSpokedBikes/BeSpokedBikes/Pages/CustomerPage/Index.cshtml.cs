@@ -22,6 +22,11 @@ namespace BeSpokedBikes.Pages.CustomerPage
 
         public IList<Customer> Customer { get;set; }
 
+        /*
+        * When a request is made for the page, the OnGetAsync method returns a list of customers to the Razor Page. 
+        * On a Razor Page, OnGetAsync or OnGet is called to initialize the state of the page. 
+        * In this case, OnGetAsync gets a list of customers and displays them.
+        */
         public async Task OnGetAsync()
         {
             Customer = await _context.Customer.ToListAsync();
