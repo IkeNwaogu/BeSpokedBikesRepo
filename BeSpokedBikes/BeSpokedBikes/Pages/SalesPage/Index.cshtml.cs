@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BeSpokedBikes.Data;
 using BeSpokedBikes.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace BeSpokedBikes.Pages.SalesPage
 {
@@ -20,6 +21,15 @@ namespace BeSpokedBikes.Pages.SalesPage
             _context = context;
         }
 
+        //[BindProperty(SupportsGet = true)] is required for binding on HTTP GET requests.
+        [BindProperty(SupportsGet = true)]
+        [DataType(DataType.Date)]
+        public DateTime? FilterStartDate { get; set; } = null;
+
+        [BindProperty(SupportsGet = true)]
+        [DataType(DataType.Date)]
+        public DateTime? FilterEndDate { get; set; } = null;
+
         public IList<Sales> Sales { get;set; }
 
         /*
@@ -29,7 +39,16 @@ namespace BeSpokedBikes.Pages.SalesPage
         */
         public async Task OnGetAsync()
         {
-            Sales = await _context.Sales.ToListAsync();
+           //Placed this here so Sales table would still be filled in general even if there aren't any filters
+           var sales = from _sales in _context.Sales select _sales;
+            if(!string.IsNullOrEmpty(FilterStartDate.ToString()) && !string.IsNullOrEmpty(FilterEndDate.ToString()))
+            {
+                //LINQ query to retrieve the dates that are in the range the user specified
+                sales = from sale in sales where sale.SalesDate >= FilterStartDate && sale.SalesDate <= FilterEndDate select sale;
+                //Todo: Error checking for if a date that is entered is greater or less than whats in the table
+            }
+            
+            Sales = await sales.ToListAsync();
         }
     }
 }

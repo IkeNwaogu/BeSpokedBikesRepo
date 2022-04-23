@@ -228,8 +228,68 @@ namespace BeSpokedBikes.Models
                         }
                         ); 
                 }
-                //saves the changes
-                context.SaveChanges();
+                if (!context.Sales.Any())
+                {
+                    context.Sales.AddRange(
+                        new Sales
+                        {
+                            Product = "Thunderbolt",
+                            SalesPerson = "Michael Scott",
+                            Customer = "Charlie Brown",
+                            //year,month,day
+                            SalesDate = new DateTime(2010,3,7)
+                        },
+                        new Sales { 
+                            Product = "Venom",
+                            SalesPerson = "Reynold Quarcoo",
+                            Customer = "Sally May",
+                            //year,month,day
+                            SalesDate = new DateTime(2008, 5, 2)
+                        },
+                        new Sales
+                        {
+                            Product = "Spitfire",
+                            SalesPerson = "Adam Phillips",
+                            Customer = "Garry Coleman",
+                            //year,month,day
+                            SalesDate = new DateTime(2012, 5, 9)
+                        },
+                        new Sales
+                        {
+                            Product = "Interceptor",
+                            SalesPerson = "Stacy Adams",
+                            Customer = "Linda Earnest",
+                            //year,month,day
+                            SalesDate = new DateTime(2010, 7, 7)
+                        },
+                        new Sales
+                        {
+                            Product = "ThunderBird",
+                            SalesPerson = "Reynold Quarcoo",
+                            Customer = "Ronnie Erwin",
+                            SalesDate = new DateTime(2012,5,5)
+                        },
+                        new Sales
+                        {
+                            Product = "Black Lightning",
+                            SalesPerson = "Reynold Quarcoo",
+                            Customer = "Ronnie Erwin",
+                            SalesDate = new DateTime(2012, 7, 5)
+                        },
+                        new Sales
+                        {
+                            Product = "Commando",
+                            SalesPerson = "Adam Phillips",
+                            Customer = "Sally May",
+                            SalesDate = new DateTime(2012, 7, 5)
+                        }
+
+                        );
+                  
+
+                }
+                    //saves the changes
+                    context.SaveChanges();
             }
         }
     }
