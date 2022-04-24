@@ -4,6 +4,7 @@ using BeSpokedBikes.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BeSpokedBikes.Migrations
 {
     [DbContext(typeof(BeSpokedBikesContext))]
-    partial class BeSpokedBikesContextModelSnapshot : ModelSnapshot
+    [Migration("20220423222023_SeventhMigration")]
+    partial class SeventhMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -77,16 +79,19 @@ namespace BeSpokedBikes.Migrations
 
             modelBuilder.Entity("BeSpokedBikes.Models.Products", b =>
                 {
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
                     b.Property<double>("CommissionPercentage")
                         .HasColumnType("float");
 
-                    b.Property<int>("ID")
-                        .HasColumnType("int");
-
                     b.Property<string>("Manufacturer")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("PurchasePrice")
@@ -101,7 +106,7 @@ namespace BeSpokedBikes.Migrations
                     b.Property<string>("Style")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Name");
+                    b.HasKey("ID");
 
                     b.ToTable("Products");
                 });

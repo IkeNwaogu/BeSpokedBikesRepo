@@ -12,6 +12,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BeSpokedBikesContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BeSpokedBikesContext") ?? throw new InvalidOperationException("Connection string 'BeSpokedBikesContext' not found.")));
 
+
 var app = builder.Build();
 
 /*Gets a database context instance from the dependency injection (DI) container.
@@ -34,6 +35,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+
 
 app.UseRouting();
 

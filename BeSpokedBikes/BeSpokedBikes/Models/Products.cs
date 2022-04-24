@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace BeSpokedBikes.Models
 {
     public class Products
@@ -7,10 +9,13 @@ namespace BeSpokedBikes.Models
 
         //The ID field is required by the database for the primary key
         public int ID { get; set; }
+
         public string? Name { get; set; }
         public string? Manufacturer { get; set; } 
         public string? Style { get; set; }
-        public double PurchasePrice { get; set; }   
+        [DataType(DataType.Currency)]
+        public double PurchasePrice { get; set; }
+        [DataType(DataType.Currency)]
         public double SalePrice { get; set; }
         public int QtyOnHand { get; set; }
         public double CommissionPercentage { get; set; }    

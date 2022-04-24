@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mB0GBrQg+5zV1KSOIaTPXPw2EPWh7ZMaI8NDrPWC+wKvslAcPc3cYYNB+g+CtK2dIu8KBe3QyJ0o0i5kB7beGA==",
+  "dgSpecHash": "s1NHxZ4H5GQq9ZEVzJvCGTeN8YxMUiKBCpG4akI/R20tDXZcGO27CXwJY3rZfNE3Z8VOhGh1ZedQ3E6y6rdaRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ike\\source\\repos\\BeSpokedBikesRepo\\BeSpokedBikesRepo\\BeSpokedBikes\\BeSpokedBikes\\BeSpokedBikes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ike\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Ike\\.nuget\\packages\\jquery\\1.6.3\\jquery.1.6.3.nupkg.sha512",
     "C:\\Users\\Ike\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Ike\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\Ike\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
@@ -180,7 +181,8 @@
     "C:\\Users\\Ike\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Ike\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\Ike\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ike\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Ike\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ike\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512"
   ],
   "logs": []
 }

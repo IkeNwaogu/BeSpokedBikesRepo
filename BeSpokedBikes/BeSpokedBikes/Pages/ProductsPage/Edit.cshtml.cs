@@ -21,7 +21,10 @@ namespace BeSpokedBikes.Pages.ProductsPage
             _context = context;
         }
 
-        [BindProperty]
+        BeSpokedBikes.Data.BeSpokedBikesContext GetContext => _context;
+
+
+       [BindProperty]
         public Products Products { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)

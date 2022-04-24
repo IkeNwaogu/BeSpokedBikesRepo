@@ -7,6 +7,7 @@ namespace BeSpokedBikes.Models
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
+            Duplicates duplicates = new Duplicates();
             //grabs the data context
             using(var context = new BeSpokedBikesContext(
                 serviceProvider.GetRequiredService<DbContextOptions<BeSpokedBikesContext>>()))
@@ -237,14 +238,16 @@ namespace BeSpokedBikes.Models
                             SalesPerson = "Michael Scott",
                             Customer = "Charlie Brown",
                             //year,month,day
-                            SalesDate = new DateTime(2010,3,7)
+                            SalesDate = new DateTime(2010,3,7),
+                            Commission = 0.10f,
                         },
                         new Sales { 
                             Product = "Venom",
                             SalesPerson = "Reynold Quarcoo",
                             Customer = "Sally May",
                             //year,month,day
-                            SalesDate = new DateTime(2008, 5, 2)
+                            SalesDate = new DateTime(2008, 5, 2),
+                            Commission = 0.10f
                         },
                         new Sales
                         {
@@ -252,7 +255,8 @@ namespace BeSpokedBikes.Models
                             SalesPerson = "Adam Phillips",
                             Customer = "Garry Coleman",
                             //year,month,day
-                            SalesDate = new DateTime(2012, 5, 9)
+                            SalesDate = new DateTime(2012, 5, 9),
+                            Commission = 0.10f
                         },
                         new Sales
                         {
@@ -260,32 +264,35 @@ namespace BeSpokedBikes.Models
                             SalesPerson = "Stacy Adams",
                             Customer = "Linda Earnest",
                             //year,month,day
-                            SalesDate = new DateTime(2010, 7, 7)
+                            SalesDate = new DateTime(2010, 7, 7),
+                            Commission = 0.10f
                         },
                         new Sales
                         {
                             Product = "ThunderBird",
                             SalesPerson = "Reynold Quarcoo",
                             Customer = "Ronnie Erwin",
-                            SalesDate = new DateTime(2012,5,5)
+                            SalesDate = new DateTime(2012,5,5),
+                            Commission = 0.10f
                         },
                         new Sales
                         {
                             Product = "Black Lightning",
                             SalesPerson = "Reynold Quarcoo",
                             Customer = "Ronnie Erwin",
-                            SalesDate = new DateTime(2012, 7, 5)
+                            SalesDate = new DateTime(2012, 7, 5),
+                            Commission = 0.10f
                         },
                         new Sales
                         {
                             Product = "Commando",
                             SalesPerson = "Adam Phillips",
                             Customer = "Sally May",
-                            SalesDate = new DateTime(2012, 7, 5)
+                            SalesDate = new DateTime(2012, 7, 5),
+                            Commission = 0.10f
                         }
 
                         );
-                  
 
                 }
                     //saves the changes

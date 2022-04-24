@@ -27,9 +27,25 @@ namespace BeSpokedBikes.Pages.SalesPersonPage
         * On a Razor Page, OnGetAsync or OnGet is called to initialize the state of the page. 
         * In this case, OnGetAsync gets a list of SalesPersons and displays them.
         */
-        public async Task OnGetAsync()
+        public async Task<IActionResult> OnGetAsync()
         {
+            /*
+             * If our Sales Person table already has entry with
+             * the given first and last name then send user back to edit page
+             * so they can change the first and last name
+             */
             SalesPerson = await _context.SalesPerson.ToListAsync();
+            for (int current = 0; current < SalesPerson.Count; current++)
+            {
+                for (int next = current + 1; next < SalesPerson.Count; next++)
+                {
+                    if (SalesPerson[current].FirstName.Equals(SalesPerson[next].FirstName) && SalesPerson[current].LastName.Equals(SalesPerson[next].LastName))
+                    {
+                        return LocalRedirect("/SalesPersonPage/Edit?id=" + SalesPerson[next].ID);
+                    }
+                }
+            }
+            return Page();
         }
     }
 }

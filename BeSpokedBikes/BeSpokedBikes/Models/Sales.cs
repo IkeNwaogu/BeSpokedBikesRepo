@@ -10,7 +10,11 @@ namespace BeSpokedBikes.Models
 
         public string? Customer { get; set; }
 
+        public float Commission { get; set; }
+
         [DataType(DataType.Date)]
-        public DateTime SalesDate { get; set; } //Todo: Get datetype
+        public DateTime SalesDate { get; set; } 
+
+        
     }
 }
