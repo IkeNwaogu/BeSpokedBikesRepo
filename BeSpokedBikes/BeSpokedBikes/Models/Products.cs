@@ -14,10 +14,13 @@ namespace BeSpokedBikes.Models
         public string? Manufacturer { get; set; } 
         public string? Style { get; set; }
         [DataType(DataType.Currency)]
+        [Display(Name = "Purchase Price")]
         public double PurchasePrice { get; set; }
         [DataType(DataType.Currency)]
+        [Display(Name = "Sale Price")]
         public double SalePrice { get; set; }
         public int QtyOnHand { get; set; }
+        [Display(Name = "Commission Percentage")]
         public double CommissionPercentage { get; set; }    
     }
 }

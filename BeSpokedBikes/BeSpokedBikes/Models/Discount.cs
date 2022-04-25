@@ -8,10 +8,13 @@ namespace BeSpokedBikes.Models
         public string? Product { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name = "Begin Date")]
         public DateTime BeginDate { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name = "End Date")]
         public DateTime EndDate { get; set; }
+        [Display(Name = "Discount Percentage")]
         public double DiscountPercentage { get; set; }
     }
 }
